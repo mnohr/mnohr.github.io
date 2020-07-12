@@ -1,0 +1,172 @@
+body{
+    padding: 0px;
+    margin: 0 auto;
+    font-family: -apple-system, Arial, sans-serif;
+  }
+
+a:link {
+    text-decoration: none;
+}
+
+ol,ul{
+      list-style-type: none;
+     
+}
+
+
+
+hr{
+    border: 0;
+    border-top: 1px solid #eee;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /* margin-left: 60px; */
+    /* margin-right: 60px; */
+}
+
+h1 , h2 ,h3 ,h4 ,h5 ,h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+
+h4{
+    font-size: 1.5rem;
+
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+
+.center {
+    text-align: center;
+}
+
+
+.col-half{
+    
+     width: 50%;
+	
+}
+
+.col-inline{
+    display: inline;
+    float: left;
+    position: relative;
+}
+
+.float-right {
+    float: right!important;
+}
+
+
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+ .container-all {
+    vertical-align: middle;
+    margin: auto;
+    padding: 0px 5%;
+}
+
+
+.text-align-center{
+	text-align:center;
+}
+
+p.text-justify {
+    margin: 0px 25px 0px 0px;
+}
+
+.text-style{
+	font-size: 16px;
+    line-height: 28px;
+}
+
+.responsive-img {
+  width: 100%;
+  max-width:620px;
+  height: auto;
+}
+
+img {
+width:100%;
+height:auto;
+}
+
+/*social icon styling*/
+.social-icons
+{
+    margin-top: 0px;
+  padding-left:0px;
+  margin-bottom:0px;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+
+
+
+
+

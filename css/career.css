@@ -1,0 +1,175 @@
+ .content_all_cover{
+   /* width:740px;
+    float:left;
+    display:inline;*/
+    width: 100%;
+    float: left;
+    display: inline;
+    
+}
+.container-all{
+    vertical-align: middle;
+    margin: auto;
+    padding: 0px 5%;
+}
+
+.career_row {
+    width:100%;
+    float:left;
+    display:inline;
+    margin-top:2px;
+}
+.career_left {
+    width:155px;
+    float:left;
+    display:inline;
+    height:20px;
+    background-color:#669933;
+    padding-left:10px;
+    color:#FFF;
+    padding-top:5px;
+    padding-bottom:5px;
+    
+}
+.career_right {
+    width:80%;
+    float:left;
+    display:inline;
+    height:20px;
+    background-color:#c8c7c7;
+    padding-left:10px;
+    color:#000;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.career_left_large {
+    width:155px;
+    float:left;
+    display:inline;
+    height:55px;
+    background-color:#669933;
+    padding-left:10px;
+    color:#FFF;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-top:20px;
+}
+.career_right_large {
+    width:80%;
+    float:left;
+    display:inline;
+    min-height:75px;
+    background-color:#c8c7c7;
+    padding-left:10px;
+    color:#000;
+    padding-top:5px;
+    
+}
+
+.career_right_lst{
+    width:575px;
+    float:left;
+    display:inline;
+    min-height:30px;
+    
+}
+.career_right_ist_fst{
+    width:458px;
+    float:left;
+    display:inline;
+    background-color:#c8c7c7;
+    padding-left:10px;
+    padding-top:13px;
+    padding-bottom:5px;
+    min-height:22px;
+}
+.career_left_lst{
+    width:155px;
+    float:left;
+    display:inline;
+    height:25px;
+    background-color:#669933;
+    padding-left:10px;
+    color:#FFF;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-top:10px;
+}
+.career_right_ist_sec{
+    width:75px;
+    float:left;
+    display:inline;
+    background-color:#c8c7c7;
+    margin-left:2px;
+    padding-top:10px;
+    padding-bottom:12px;
+    padding-left:30px;
+}
+.career_form_row{
+    width:640px;
+    float:left;
+    display:inline;
+    margin-left:35px;
+    padding-top:15px;
+}
+.career_form_row_left{
+    width:105px;
+    float:left;
+    display:inline;
+}
+.career_form_row_right{
+    width:300px;
+    float:left;
+    display:inline;
+}
+
+@media only screen and (max-width: 480px) {
+    /* insert styles here */
+    .career_left_large ,   
+.career_right_large ,
+.career_left,
+.career_right {
+    width:100%;
+   
+    
+}
+
+
+
+.career_right_ist_fst{
+    width:40%;
+
+}
+
+.career_right_ist_sec{
+    width:20%;
+  
+}
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+.career_left_large ,   
+.career_right_large ,
+.career_left,
+.career_right {
+    width:100%;
+   
+    
+}
+
+
+
+.career_right_ist_fst{
+    width:40%;
+
+}
+
+.career_right_ist_sec{
+    width:20%;
+  
+}
+
+
+     }
